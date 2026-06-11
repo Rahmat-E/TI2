@@ -1,0 +1,10 @@
+1.  abstract class "Animal" : Kelas abstrak adalah kelas yang tidak dapat diinstansiasi sendiri dan digunakan sebagai kelas dasar untuk kelas lain.
+    - method "animalSound" adalah method abstrak yang tidak memiliki implementasi di kelas "Animal" dan akan di pakai di Kelas turunannya. 
+    - Method digunakan oleh kelas turunannya tanpa perlu mengimplementasikan ulang.
+
+2. Class Pig : merupakan subclass, mewarisi class Animal, dan mengunakan method "animalSound()" dari Animal dan mewarisi methode sleep() dari class Animal
+
+3. Class Main : merupakan class untuk mengeksekusi program 1. 
+    menginstansiasi objek myPig dari kelas Pig.
+    Memanggil method animalSound() dari object myPig
+    MEmanggil method sleep() pada objek myPig, yang diwarisi dari kelas Animal.

@@ -1,0 +1,15 @@
+1,2. Apakah program diatas berjalan dengan baik ? Bandingkan dan Analisa kedua program diatas !
+
+1. program satu berjalan karena class car dapat mengakses variabel  protected 'brand' dari class parentnya yaitu vehicle
+
+2. program dua error karena class car2 tidak dapat mengakses variabel brand dan method honk dari class car2 karena private, dan private   hanya dapat diakses di dalam kelas itu sendiri.
+
+
+
+program 3: 
+class komputer : class yang sebagai super class karena class ini mewarisiskan properti dan method kepada class komputer.
+
+class laptop : class ini adalah sub class dari komputer karena menerima warisan dari class komputer.
+
+class belajarInheritance : class ini bertugas untuk mengeksekusi program. class ini menggunakan properti dan method dari class laptop dan juga superclassnya yaitu class komputer
+

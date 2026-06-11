@@ -1,0 +1,17 @@
+hsv.java: mengkonversi rgb menjadi hsv;
+ImageBInaryConverter: mengubah objek menjadi putih dan background menjadi hitam(minus: harus memasukkan warna apa yang akan di jadikan objek);
+ObjekPutihCutter:memotong gambar agar menyisakan objeknya saja;
+ImageColorFiltering: Warna yang sudah di dec rgb tidak di rubah dan warna selain itu di ubah menjadi hitam;
+ICF: seperti ImageColorFiltering tetapi menggunakan hsv
+
+Terdiri dari 2 metode:
+1. IBC: objek(putih), background(hitam);
+2. ICF: objek(Tetap), background(hitam);
+
+yang harus dilakukan:
+1. memahami code 
+2. menyempurnakan IBF agar inputnya manual dari program
+3. ObjekPutihCutter: kurang presisi
+4. -------  mengmbalikan warna dan classification cnn
+   -------  separation and classification ?
+   

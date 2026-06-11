@@ -1,0 +1,11 @@
+class Animal:  Dalam Java, sebuah interface adalah kumpulan metode abstrak yang dapat diimplementasikan oleh kelas-kelas lain.
+    public void animalSound(); - Metode ini harus diimplementasikan oleh kelas lain
+    public void sleep(); - Metode ini juga harus diimplementasikan kelas turunannnya
+
+class pig: mengimplementasikan method yang ada di class Animal
+
+class Main: merupakan class untuk mengeksekusi program 2 
+    membuat object myPig dari class pig
+    Memanggil method animalSound() dari object myPig
+    Memanggil method sleep() pada objek myPig
+
